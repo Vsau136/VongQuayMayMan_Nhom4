@@ -1,0 +1,187 @@
+D:\source\repos\FormLogin\bin\Debug\FormLogin.exe.config
+D:\source\repos\FormLogin\bin\Debug\FormLogin.exe
+D:\source\repos\FormLogin\bin\Debug\FormLogin.pdb
+D:\source\repos\FormLogin\obj\Debug\FormLogin.csproj.AssemblyReference.cache
+D:\source\repos\FormLogin\obj\Debug\FormLogin.frmlogin.resources
+D:\source\repos\FormLogin\obj\Debug\FormLogin.Properties.Resources.resources
+D:\source\repos\FormLogin\obj\Debug\FormLogin.csproj.GenerateResource.cache
+D:\source\repos\FormLogin\obj\Debug\FormLogin.csproj.CoreCompileInputs.cache
+D:\source\repos\FormLogin\obj\Debug\FormLogin.exe
+D:\source\repos\FormLogin\obj\Debug\FormLogin.pdb
+D:\source\repos\FormLogin\obj\Debug\FormLogin.FormH.resources
+D:\source\repos\FormLogin\obj\Debug\FormLogin.FormSL.resources
+D:\source\repos\FormLogin\obj\Debug\FormLogin.FormRk.resources
+D:\source\repos\FormLogin\obj\Debug\FormLogin.FormEntername.resources
+D:\source\repos\FormLogin\obj\Debug\FormLogin.FormCLG.resources
+D:\source\repos\FormLogin\obj\Debug\FormLogin.FormCT.resources
+D:\source\repos\FormLogin\obj\Debug\FormLogin.Formregister.resources
+E:\Lập trình mạng\FormLogin\FormLogin\bin\Debug\FormLogin.exe.config
+E:\Lập trình mạng\FormLogin\FormLogin\bin\Debug\FormLogin.exe
+E:\Lập trình mạng\FormLogin\FormLogin\bin\Debug\FormLogin.pdb
+E:\Lập trình mạng\FormLogin\FormLogin\obj\Debug\FormLogin.csproj.AssemblyReference.cache
+E:\Lập trình mạng\FormLogin\FormLogin\obj\Debug\FormLogin.frmlogin.resources
+E:\Lập trình mạng\FormLogin\FormLogin\obj\Debug\FormLogin.FormCLG.resources
+E:\Lập trình mạng\FormLogin\FormLogin\obj\Debug\FormLogin.FormCT.resources
+E:\Lập trình mạng\FormLogin\FormLogin\obj\Debug\FormLogin.FormEntername.resources
+E:\Lập trình mạng\FormLogin\FormLogin\obj\Debug\FormLogin.FormH.resources
+E:\Lập trình mạng\FormLogin\FormLogin\obj\Debug\FormLogin.Formregister.resources
+E:\Lập trình mạng\FormLogin\FormLogin\obj\Debug\FormLogin.FormRk.resources
+E:\Lập trình mạng\FormLogin\FormLogin\obj\Debug\FormLogin.FormSL.resources
+E:\Lập trình mạng\FormLogin\FormLogin\obj\Debug\FormLogin.Properties.Resources.resources
+E:\Lập trình mạng\FormLogin\FormLogin\obj\Debug\FormLogin.csproj.GenerateResource.cache
+E:\Lập trình mạng\FormLogin\FormLogin\obj\Debug\FormLogin.csproj.CoreCompileInputs.cache
+E:\Lập trình mạng\FormLogin\FormLogin\obj\Debug\FormLogin.exe
+E:\Lập trình mạng\FormLogin\FormLogin\obj\Debug\FormLogin.pdb
+C:\Users\User\Documents\FormLogin (1)\FormLogin\bin\Debug\FormLogin.exe.config
+C:\Users\User\Documents\FormLogin (1)\FormLogin\bin\Debug\FormLogin.exe
+C:\Users\User\Documents\FormLogin (1)\FormLogin\bin\Debug\FormLogin.pdb
+C:\Users\User\Documents\FormLogin (1)\FormLogin\obj\Debug\FormLogin.csproj.AssemblyReference.cache
+C:\Users\User\Documents\FormLogin (1)\FormLogin\obj\Debug\FormLogin.frmlogin.resources
+C:\Users\User\Documents\FormLogin (1)\FormLogin\obj\Debug\FormLogin.FormCLG.resources
+C:\Users\User\Documents\FormLogin (1)\FormLogin\obj\Debug\FormLogin.FormCT.resources
+C:\Users\User\Documents\FormLogin (1)\FormLogin\obj\Debug\FormLogin.FormEntername.resources
+C:\Users\User\Documents\FormLogin (1)\FormLogin\obj\Debug\FormLogin.FormH.resources
+C:\Users\User\Documents\FormLogin (1)\FormLogin\obj\Debug\FormLogin.Formregister.resources
+C:\Users\User\Documents\FormLogin (1)\FormLogin\obj\Debug\FormLogin.FormRk.resources
+C:\Users\User\Documents\FormLogin (1)\FormLogin\obj\Debug\FormLogin.FormSL.resources
+C:\Users\User\Documents\FormLogin (1)\FormLogin\obj\Debug\FormLogin.Properties.Resources.resources
+C:\Users\User\Documents\FormLogin (1)\FormLogin\obj\Debug\FormLogin.csproj.GenerateResource.cache
+C:\Users\User\Documents\FormLogin (1)\FormLogin\obj\Debug\FormLogin.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\FormLogin (1)\FormLogin\obj\Debug\FormLogin.exe
+C:\Users\User\Documents\FormLogin (1)\FormLogin\obj\Debug\FormLogin.pdb
+E:\Lập trình mạng\FormLogin-new\FormLogin-new\FormLogin\obj\Debug\FormLogin.csproj.AssemblyReference.cache
+E:\Lập trình mạng\FormLogin-new\FormLogin-new\FormLogin\obj\Debug\FormLogin.frmlogin.resources
+E:\Lập trình mạng\FormLogin-new\FormLogin-new\FormLogin\obj\Debug\FormLogin.FormCLG.resources
+E:\Lập trình mạng\FormLogin-new\FormLogin-new\FormLogin\obj\Debug\FormLogin.FormCT.resources
+E:\Lập trình mạng\FormLogin-new\FormLogin-new\FormLogin\obj\Debug\FormLogin.FormEntername.resources
+E:\Lập trình mạng\FormLogin-new\FormLogin-new\FormLogin\obj\Debug\FormLogin.FormH.resources
+E:\Lập trình mạng\FormLogin-new\FormLogin-new\FormLogin\obj\Debug\FormLogin.Formregister.resources
+E:\Lập trình mạng\FormLogin-new\FormLogin-new\FormLogin\obj\Debug\FormLogin.FormRk.resources
+E:\Lập trình mạng\FormLogin-new\FormLogin-new\FormLogin\obj\Debug\FormLogin.FormSL.resources
+E:\Lập trình mạng\FormLogin-new\FormLogin-new\FormLogin\obj\Debug\FormLogin.Properties.Resources.resources
+E:\Lập trình mạng\FormLogin-new\FormLogin-new\FormLogin\obj\Debug\FormLogin.csproj.GenerateResource.cache
+E:\Lập trình mạng\FormLogin-new\FormLogin-new\FormLogin\obj\Debug\FormLogin.csproj.CoreCompileInputs.cache
+E:\Lập trình mạng\FormLogin-new\FormLogin-new\FormLogin\obj\Debug\FormLogin.exe
+E:\Lập trình mạng\FormLogin-new\FormLogin-new\FormLogin\obj\Debug\FormLogin.pdb
+E:\Lập trình mạng\FormLogin-new\FormLogin-new\FormLogin\bin\Debug\FormLogin.exe.config
+E:\Lập trình mạng\FormLogin-new\FormLogin-new\FormLogin\bin\Debug\FormLogin.exe
+E:\Lập trình mạng\FormLogin-new\FormLogin-new\FormLogin\bin\Debug\FormLogin.pdb
+C:\Users\User\Documents\FormLogin-new1\FormLogin-new1\FormLogin-new\FormLogin\bin\Debug\FormLogin.exe.config
+C:\Users\User\Documents\FormLogin-new1\FormLogin-new1\FormLogin-new\FormLogin\bin\Debug\FormLogin.exe
+C:\Users\User\Documents\FormLogin-new1\FormLogin-new1\FormLogin-new\FormLogin\bin\Debug\FormLogin.pdb
+C:\Users\User\Documents\FormLogin-new1\FormLogin-new1\FormLogin-new\FormLogin\obj\Debug\FormLogin.csproj.AssemblyReference.cache
+C:\Users\User\Documents\FormLogin-new1\FormLogin-new1\FormLogin-new\FormLogin\obj\Debug\FormLogin.frmlogin.resources
+C:\Users\User\Documents\FormLogin-new1\FormLogin-new1\FormLogin-new\FormLogin\obj\Debug\FormLogin.FormCLG.resources
+C:\Users\User\Documents\FormLogin-new1\FormLogin-new1\FormLogin-new\FormLogin\obj\Debug\FormLogin.FormCT.resources
+C:\Users\User\Documents\FormLogin-new1\FormLogin-new1\FormLogin-new\FormLogin\obj\Debug\FormLogin.FormEntername.resources
+C:\Users\User\Documents\FormLogin-new1\FormLogin-new1\FormLogin-new\FormLogin\obj\Debug\FormLogin.FormH.resources
+C:\Users\User\Documents\FormLogin-new1\FormLogin-new1\FormLogin-new\FormLogin\obj\Debug\FormLogin.Formregister.resources
+C:\Users\User\Documents\FormLogin-new1\FormLogin-new1\FormLogin-new\FormLogin\obj\Debug\FormLogin.FormRk.resources
+C:\Users\User\Documents\FormLogin-new1\FormLogin-new1\FormLogin-new\FormLogin\obj\Debug\FormLogin.FormSL.resources
+C:\Users\User\Documents\FormLogin-new1\FormLogin-new1\FormLogin-new\FormLogin\obj\Debug\FormLogin.Properties.Resources.resources
+C:\Users\User\Documents\FormLogin-new1\FormLogin-new1\FormLogin-new\FormLogin\obj\Debug\FormLogin.csproj.GenerateResource.cache
+C:\Users\User\Documents\FormLogin-new1\FormLogin-new1\FormLogin-new\FormLogin\obj\Debug\FormLogin.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\FormLogin-new1\FormLogin-new1\FormLogin-new\FormLogin\obj\Debug\FormLogin.exe
+C:\Users\User\Documents\FormLogin-new1\FormLogin-new1\FormLogin-new\FormLogin\obj\Debug\FormLogin.pdb
+C:\Users\User\Documents\FormLogin\bin\Debug\FormLogin.exe.config
+C:\Users\User\Documents\FormLogin\bin\Debug\FormLogin.exe
+C:\Users\User\Documents\FormLogin\bin\Debug\FormLogin.pdb
+C:\Users\User\Documents\FormLogin\obj\Debug\FormLogin.csproj.AssemblyReference.cache
+C:\Users\User\Documents\FormLogin\obj\Debug\FormLogin.frmlogin.resources
+C:\Users\User\Documents\FormLogin\obj\Debug\FormLogin.FormCLG.resources
+C:\Users\User\Documents\FormLogin\obj\Debug\FormLogin.FormCT.resources
+C:\Users\User\Documents\FormLogin\obj\Debug\FormLogin.FormEntername.resources
+C:\Users\User\Documents\FormLogin\obj\Debug\FormLogin.FormH.resources
+C:\Users\User\Documents\FormLogin\obj\Debug\FormLogin.Formregister.resources
+C:\Users\User\Documents\FormLogin\obj\Debug\FormLogin.FormRk.resources
+C:\Users\User\Documents\FormLogin\obj\Debug\FormLogin.FormSL.resources
+C:\Users\User\Documents\FormLogin\obj\Debug\FormLogin.Properties.Resources.resources
+C:\Users\User\Documents\FormLogin\obj\Debug\FormLogin.csproj.GenerateResource.cache
+C:\Users\User\Documents\FormLogin\obj\Debug\FormLogin.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\FormLogin\obj\Debug\FormLogin.exe
+C:\Users\User\Documents\FormLogin\obj\Debug\FormLogin.pdb
+E:\Lập trình mạng\FormLogin (1)\bin\Debug\FormLogin.exe.config
+E:\Lập trình mạng\FormLogin (1)\bin\Debug\FormLogin.exe
+E:\Lập trình mạng\FormLogin (1)\bin\Debug\FormLogin.pdb
+E:\Lập trình mạng\FormLogin (1)\obj\Debug\FormLogin.csproj.AssemblyReference.cache
+E:\Lập trình mạng\FormLogin (1)\obj\Debug\FormLogin.frmlogin.resources
+E:\Lập trình mạng\FormLogin (1)\obj\Debug\FormLogin.FormCLG.resources
+E:\Lập trình mạng\FormLogin (1)\obj\Debug\FormLogin.FormCT.resources
+E:\Lập trình mạng\FormLogin (1)\obj\Debug\FormLogin.FormEntername.resources
+E:\Lập trình mạng\FormLogin (1)\obj\Debug\FormLogin.FormH.resources
+E:\Lập trình mạng\FormLogin (1)\obj\Debug\FormLogin.Formregister.resources
+E:\Lập trình mạng\FormLogin (1)\obj\Debug\FormLogin.FormRk.resources
+E:\Lập trình mạng\FormLogin (1)\obj\Debug\FormLogin.FormSL.resources
+E:\Lập trình mạng\FormLogin (1)\obj\Debug\FormLogin.Properties.Resources.resources
+E:\Lập trình mạng\FormLogin (1)\obj\Debug\FormLogin.csproj.GenerateResource.cache
+E:\Lập trình mạng\FormLogin (1)\obj\Debug\FormLogin.csproj.CoreCompileInputs.cache
+E:\Lập trình mạng\FormLogin (1)\obj\Debug\FormLogin.exe
+E:\Lập trình mạng\FormLogin (1)\obj\Debug\FormLogin.pdb
+C:\Users\User\Documents\FormLogin (1)\FormLogin (1)\bin\Debug\FormLogin.exe.config
+C:\Users\User\Documents\FormLogin (1)\FormLogin (1)\bin\Debug\FormLogin.exe
+C:\Users\User\Documents\FormLogin (1)\FormLogin (1)\bin\Debug\FormLogin.pdb
+C:\Users\User\Documents\FormLogin (1)\FormLogin (1)\obj\Debug\FormLogin.csproj.AssemblyReference.cache
+C:\Users\User\Documents\FormLogin (1)\FormLogin (1)\obj\Debug\FormLogin.frmlogin.resources
+C:\Users\User\Documents\FormLogin (1)\FormLogin (1)\obj\Debug\FormLogin.FormCLG.resources
+C:\Users\User\Documents\FormLogin (1)\FormLogin (1)\obj\Debug\FormLogin.FormCT.resources
+C:\Users\User\Documents\FormLogin (1)\FormLogin (1)\obj\Debug\FormLogin.FormEntername.resources
+C:\Users\User\Documents\FormLogin (1)\FormLogin (1)\obj\Debug\FormLogin.FormH.resources
+C:\Users\User\Documents\FormLogin (1)\FormLogin (1)\obj\Debug\FormLogin.Formregister.resources
+C:\Users\User\Documents\FormLogin (1)\FormLogin (1)\obj\Debug\FormLogin.FormRk.resources
+C:\Users\User\Documents\FormLogin (1)\FormLogin (1)\obj\Debug\FormLogin.FormSL.resources
+C:\Users\User\Documents\FormLogin (1)\FormLogin (1)\obj\Debug\FormLogin.Properties.Resources.resources
+C:\Users\User\Documents\FormLogin (1)\FormLogin (1)\obj\Debug\FormLogin.csproj.GenerateResource.cache
+C:\Users\User\Documents\FormLogin (1)\FormLogin (1)\obj\Debug\FormLogin.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\FormLogin (1)\FormLogin (1)\obj\Debug\FormLogin.exe
+C:\Users\User\Documents\FormLogin (1)\FormLogin (1)\obj\Debug\FormLogin.pdb
+E:\Lập trình mạng\FormLogin mới nhất\FormLogin (1)\bin\Debug\FormLogin.exe.config
+E:\Lập trình mạng\FormLogin mới nhất\FormLogin (1)\bin\Debug\FormLogin.exe
+E:\Lập trình mạng\FormLogin mới nhất\FormLogin (1)\bin\Debug\FormLogin.pdb
+E:\Lập trình mạng\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.csproj.AssemblyReference.cache
+E:\Lập trình mạng\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.frmlogin.resources
+E:\Lập trình mạng\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.FormCLG.resources
+E:\Lập trình mạng\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.FormCT.resources
+E:\Lập trình mạng\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.FormEntername.resources
+E:\Lập trình mạng\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.FormH.resources
+E:\Lập trình mạng\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.Formregister.resources
+E:\Lập trình mạng\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.FormRk.resources
+E:\Lập trình mạng\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.FormSL.resources
+E:\Lập trình mạng\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.Properties.Resources.resources
+E:\Lập trình mạng\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.csproj.GenerateResource.cache
+E:\Lập trình mạng\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.csproj.CoreCompileInputs.cache
+E:\Lập trình mạng\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.exe
+E:\Lập trình mạng\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.pdb
+D:\FormLogin mới nhất\FormLogin (1)\bin\Debug\FormLogin.exe.config
+D:\FormLogin mới nhất\FormLogin (1)\bin\Debug\FormLogin.exe
+D:\FormLogin mới nhất\FormLogin (1)\bin\Debug\FormLogin.pdb
+D:\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.csproj.AssemblyReference.cache
+D:\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.frmlogin.resources
+D:\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.FormCLG.resources
+D:\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.FormCT.resources
+D:\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.FormEntername.resources
+D:\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.FormH.resources
+D:\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.Formregister.resources
+D:\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.FormRk.resources
+D:\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.FormSL.resources
+D:\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.Properties.Resources.resources
+D:\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.csproj.GenerateResource.cache
+D:\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.csproj.CoreCompileInputs.cache
+D:\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.exe
+D:\FormLogin mới nhất\FormLogin (1)\obj\Debug\FormLogin.pdb
+E:\Lập trình mạng\fix login\FormLogin (1)\bin\Debug\FormLogin.exe.config
+E:\Lập trình mạng\fix login\FormLogin (1)\bin\Debug\FormLogin.exe
+E:\Lập trình mạng\fix login\FormLogin (1)\bin\Debug\FormLogin.pdb
+E:\Lập trình mạng\fix login\FormLogin (1)\obj\Debug\FormLogin.csproj.AssemblyReference.cache
+E:\Lập trình mạng\fix login\FormLogin (1)\obj\Debug\FormLogin.frmlogin.resources
+E:\Lập trình mạng\fix login\FormLogin (1)\obj\Debug\FormLogin.FormCLG.resources
+E:\Lập trình mạng\fix login\FormLogin (1)\obj\Debug\FormLogin.FormCT.resources
+E:\Lập trình mạng\fix login\FormLogin (1)\obj\Debug\FormLogin.FormEntername.resources
+E:\Lập trình mạng\fix login\FormLogin (1)\obj\Debug\FormLogin.FormH.resources
+E:\Lập trình mạng\fix login\FormLogin (1)\obj\Debug\FormLogin.Formregister.resources
+E:\Lập trình mạng\fix login\FormLogin (1)\obj\Debug\FormLogin.FormRk.resources
+E:\Lập trình mạng\fix login\FormLogin (1)\obj\Debug\FormLogin.FormSL.resources
+E:\Lập trình mạng\fix login\FormLogin (1)\obj\Debug\FormLogin.Properties.Resources.resources
+E:\Lập trình mạng\fix login\FormLogin (1)\obj\Debug\FormLogin.csproj.GenerateResource.cache
+E:\Lập trình mạng\fix login\FormLogin (1)\obj\Debug\FormLogin.csproj.CoreCompileInputs.cache
+E:\Lập trình mạng\fix login\FormLogin (1)\obj\Debug\FormLogin.exe
+E:\Lập trình mạng\fix login\FormLogin (1)\obj\Debug\FormLogin.pdb

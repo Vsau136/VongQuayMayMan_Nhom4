@@ -1,0 +1,226 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|e:\\l\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\formlogin (1)\\formclg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|solutionrelative:formclg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\formclg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|solutionrelative:formclg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\formentername.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|solutionrelative:formentername.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\formentername.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|solutionrelative:formentername.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\formct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|solutionrelative:formct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\formct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|solutionrelative:formct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\formct.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|solutionrelative:formct.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\formsl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|solutionrelative:formsl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\formh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|solutionrelative:formh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\formh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|solutionrelative:formh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\formsl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D2845EF-E968-4ADD-88F5-2DC076635FE4}|FormLogin.csproj|solutionrelative:formsl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T16:53:00.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormEntername.cs",
+              "DocumentMoniker": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\FormEntername.cs",
+              "RelativeDocumentMoniker": "FormEntername.cs",
+              "ToolTip": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\FormEntername.cs",
+              "RelativeToolTip": "FormEntername.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T16:07:17.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormEntername.cs [Design]",
+              "DocumentMoniker": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\FormEntername.cs",
+              "RelativeDocumentMoniker": "FormEntername.cs",
+              "ToolTip": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\FormEntername.cs [Design]",
+              "RelativeToolTip": "FormEntername.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T16:04:50.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormCLG.cs [Design]",
+              "DocumentMoniker": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\FormCLG.cs",
+              "RelativeDocumentMoniker": "FormCLG.cs",
+              "ToolTip": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\FormCLG.cs [Design]",
+              "RelativeToolTip": "FormCLG.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T16:05:56.64Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormCLG.cs",
+              "DocumentMoniker": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\FormCLG.cs",
+              "RelativeDocumentMoniker": "FormCLG.cs",
+              "ToolTip": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\FormCLG.cs",
+              "RelativeToolTip": "FormCLG.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T10:37:51.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormH.cs",
+              "DocumentMoniker": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\FormH.cs",
+              "RelativeDocumentMoniker": "FormH.cs",
+              "ToolTip": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\FormH.cs",
+              "RelativeToolTip": "FormH.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAcwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T09:20:13.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormH.cs [Design]",
+              "DocumentMoniker": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\FormH.cs",
+              "RelativeDocumentMoniker": "FormH.cs",
+              "ToolTip": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\FormLogin m\u1EDBi nh\u1EA5t\\FormLogin (1)\\FormH.cs [Design]",
+              "RelativeToolTip": "..\\..\\FormLogin m\u1EDBi nh\u1EA5t\\FormLogin (1)\\FormH.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T09:20:11.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormCT.Designer.cs",
+              "DocumentMoniker": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\FormCT.Designer.cs",
+              "RelativeDocumentMoniker": "FormCT.Designer.cs",
+              "ToolTip": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\FormCT.Designer.cs",
+              "RelativeToolTip": "FormCT.Designer.cs",
+              "ViewState": "AQIAAKAAAAAAAAAAAAAewLEAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T09:13:34.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormCT.cs",
+              "DocumentMoniker": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\FormCT.cs",
+              "RelativeDocumentMoniker": "FormCT.cs",
+              "ToolTip": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\FormCT.cs",
+              "RelativeToolTip": "FormCT.cs",
+              "ViewState": "AgIAAD4BAAAAAAAAAAAiwEQBAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T09:13:37.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormCT.cs [Design]",
+              "DocumentMoniker": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\FormCT.cs",
+              "RelativeDocumentMoniker": "FormCT.cs",
+              "ToolTip": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\FormLogin m\u1EDBi nh\u1EA5t\\FormLogin (1)\\FormCT.cs [Design]",
+              "RelativeToolTip": "..\\..\\FormLogin m\u1EDBi nh\u1EA5t\\FormLogin (1)\\FormCT.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T09:13:32.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormSL.cs",
+              "DocumentMoniker": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\FormSL.cs",
+              "RelativeDocumentMoniker": "FormSL.cs",
+              "ToolTip": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\FormSL.cs",
+              "RelativeToolTip": "FormSL.cs",
+              "ViewState": "AQIAAK0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T17:39:14.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormSL.cs [Design]",
+              "DocumentMoniker": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\FormSL.cs",
+              "RelativeDocumentMoniker": "FormSL.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\FormLogin (1)\\FormLogin (1)\\FormSL.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T17:39:07.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\L\u1EADp tr\u00ECnh m\u1EA1ng\\fix login\\FormLogin (1)\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T01:10:26.855Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
