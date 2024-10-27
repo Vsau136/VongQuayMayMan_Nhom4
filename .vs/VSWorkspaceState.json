@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\FormLogin (1)"
+    "\\FormLogin (1)",
+    "\\FormLogin (1)\\Properties"
   ],
-  "SelectedNode": "\\FormLogin (1)\\FormSL.cs",
+  "SelectedNode": "\\FormLogin (1)\\FormLogin.sln",
   "PreviewInSolutionExplorer": false
 }
