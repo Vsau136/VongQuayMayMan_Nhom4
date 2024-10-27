@@ -31,9 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmlogin));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtName = new System.Windows.Forms.TextBox();
+            this.txtUser = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtPass = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -66,14 +66,14 @@
             this.label2.Text = "Tên:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // txtName
+            // txtUser
             // 
-            this.txtName.Location = new System.Drawing.Point(157, 228);
-            this.txtName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(187, 22);
-            this.txtName.TabIndex = 2;
-            this.txtName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtUser.Location = new System.Drawing.Point(157, 228);
+            this.txtUser.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtUser.Name = "txtUser";
+            this.txtUser.Size = new System.Drawing.Size(187, 22);
+            this.txtUser.TabIndex = 2;
+            this.txtUser.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label3
             // 
@@ -85,15 +85,15 @@
             this.label3.Text = "Mật Khẩu :";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // txtPass
+            // txtPassword
             // 
-            this.txtPass.Location = new System.Drawing.Point(157, 268);
-            this.txtPass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtPass.Name = "txtPass";
-            this.txtPass.PasswordChar = '*';
-            this.txtPass.Size = new System.Drawing.Size(187, 22);
-            this.txtPass.TabIndex = 4;
-            this.txtPass.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.txtPassword.Location = new System.Drawing.Point(157, 268);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
+            this.txtPassword.Size = new System.Drawing.Size(187, 22);
+            this.txtPassword.TabIndex = 4;
+            this.txtPassword.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // btnLogin
             // 
@@ -162,9 +162,9 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.txtPass);
+            this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtName);
+            this.Controls.Add(this.txtUser);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
@@ -183,9 +183,9 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtPass;
+        private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.PictureBox pictureBox1;

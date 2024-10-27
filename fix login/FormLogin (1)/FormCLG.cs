@@ -71,6 +71,7 @@ namespace FormLogin
         // Hàm khởi động vòng quay
         private void StartSpin()
         {
+     
             spinAngle = 0f;  // Đặt lại góc quay về 0
             currentSpeed = 5f;  // Đặt tốc độ quay ban đầu
             remainingRounds = random.Next(100, 150); // Xác định số vòng quay mục tiêu (từ 100 đến 150)
@@ -229,13 +230,13 @@ namespace FormLogin
                 label8.Text = player2Score.ToString();
                 label11.Text = player2Spins.ToString();
             }
-
+            
             // Chuyển lượt hoặc kết thúc trò chơi
             if (currentPlayer == 1 && player1Spins == 0)
             {
                 MessageBox.Show("Người chơi 1 đã hết lượt, đến lượt người chơi 2!");
                 // Hiển thị dòng chữ "nc2"
-                label14.Text = "NC2";
+                label14.Text = player2Name;
 
                 currentPlayer = 2;
                 player2Score = 0;

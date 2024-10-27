@@ -45,10 +45,10 @@ namespace FormLogin
             // Tải hình ảnh của vòng quay
             wheelImage = Properties.Resources.luckywheel1;
 
+            button1.Enabled = false;
 
             // Hiển thị thông tin người chơi ban đầu
             label11.Text = player1Spins.ToString();
-            button1.Enabled = false;
             DisplayIpAddress();
         }
 
@@ -90,7 +90,15 @@ namespace FormLogin
                 client = serverListener.EndAcceptTcpClient(ar);
                 stream = client.GetStream();
 
-                button1.Enabled = true;
+                // Kiểm tra nếu là lượt của người chơi 1
+                if (currentPlayer == 1)
+                {
+                    button1.Enabled = true; // Mở khóa nút quay cho người chơi 1 (server)
+                }
+                else
+                {
+                    button1.Enabled = true; // Khóa nút quay cho người chơi 2
+                }
 
                 BeginReceiveData();
             }
@@ -99,6 +107,7 @@ namespace FormLogin
                 // Xử lý lỗi nếu cần
             }
         }
+
 
 
         private void button4_Click(object sender, EventArgs e)
@@ -123,10 +132,9 @@ namespace FormLogin
                 stream = client.GetStream();
                 MessageBox.Show("Đã kết nối tới server!");
 
+                // Mặc định khóa nút quay cho người chơi 2 (client) và đợi tín hiệu từ server để mở khóa
                 button1.Enabled = true;
 
-
-                // Bắt đầu nhận dữ liệu từ server
                 BeginReceiveData();
             }
             catch (Exception ex)
@@ -134,6 +142,7 @@ namespace FormLogin
                 MessageBox.Show("Không thể kết nối tới server: " + ex.Message);
             }
         }
+
 
         private void BeginReceiveData()
         {
@@ -271,20 +280,25 @@ namespace FormLogin
 
 
         private void SendData(string data)
+{
+    try
+    {
+        if (stream != null && stream.CanWrite)
         {
-            try
-            {
-                if (stream != null && stream.CanWrite)
-                {
-                    byte[] dataBytes = Encoding.UTF8.GetBytes(data);
-                    stream.Write(dataBytes, 0, dataBytes.Length);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Lỗi khi gửi dữ liệu: " + ex.Message);
-            }
+            byte[] dataBytes = Encoding.UTF8.GetBytes(data);
+            stream.Write(dataBytes, 0, dataBytes.Length);
         }
+        else
+        {
+            MessageBox.Show("Stream không hợp lệ. Không thể gửi dữ liệu.");
+        }
+    }
+    catch (Exception ex)
+    {
+        MessageBox.Show("Lỗi khi gửi dữ liệu: " + ex.Message);
+    }
+}
+
 
         // Sự kiện khi nhấn nút quay
         private void button1_Click(object sender, EventArgs e)
@@ -452,8 +466,8 @@ namespace FormLogin
                 else if (currentPlayer == 2 && player2Spins == 0)
                 {
                     MessageBox.Show("Người chơi 2 đã hết lượt");
-                    LockSpinButton();
-                    SendData("End_Game"); 
+                    UnlockSpinButton();
+                    SendData("End_Game");
                 }
             }
         }

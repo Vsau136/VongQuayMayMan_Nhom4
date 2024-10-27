@@ -1,11 +1,15 @@
 ﻿using System;
+using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace FormLogin
 {
     public partial class FormSL : Form
     {
+        private string connectionString = "Data Source=MINHTIENVICTUS1;Initial Catalog=VONGQUAYDB;Integrated Security=True;";
         private int currentScore = 0;           // Điểm hiện tại
         private int remainingSpins = 5;         // Số lượt quay còn lại
         private readonly Random random;         // Đối tượng Random để tạo số ngẫu nhiên
@@ -16,10 +20,12 @@ namespace FormLogin
         private int remainingRounds;            // Số vòng quay còn lại
         private float currentSpeed = 0f;        // Tốc độ quay hiện tại
         private const int maxSpeed = 20;        // Tốc độ quay tối đa
-
-        public FormSL()
+        private string currentUser;
+        public FormSL( string username)
         {
             InitializeComponent();
+            currentUser = username;
+            lblUser.Text = "Người chơi: " + currentUser;
             random = new Random();
             spinTimer = new Timer
             {
@@ -106,13 +112,98 @@ namespace FormLogin
             if (currentScore > 1000)
             {
                 MessageBox.Show("Chúc mừng! Bạn đã thắng trò chơi với tổng điểm: " + currentScore);
+                if (ShouldSaveScore(currentUser, currentScore))
+                {
+                    SaveScore(currentUser, currentScore);
+                }
+                else
+                {
+                    MessageBox.Show("Điểm số của bạn không cao hơn điểm đã lưu. Không lưu điểm.");
+                }
             }
             else
             {
                 MessageBox.Show("Rất tiếc! Bạn đã thua. Tổng điểm của bạn là: " + currentScore);
             }
         }
+        //so sánh
+        private bool ShouldSaveScore(string userName, int newScore)
+        {
+            int highestScore = 0;
+
+            // Truy vấn điểm cao nhất của người chơi
+            string query = @"SELECT MAX(FinalScore) FROM Score WHERE UserName = @UserName;";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.Add("@UserName", SqlDbType.NVarChar).Value = userName;
+
+                try
+                {
+                    connection.Open();
+                    object result = command.ExecuteScalar();
+
+                    // Kiểm tra kết quả trả về
+                    if (result != DBNull.Value)
+                    {
+                        highestScore = (int)result;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error retrieving highest score: " + ex.Message);
+                    return false; // Nếu có lỗi, không lưu điểm
+                }
+            }
+
+            // So sánh điểm mới với điểm cao nhất
+            return newScore > highestScore;
+        }
+
+        //Luu diem vao database
+        private void SaveScore(string userName, int score)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                // Truy vấn để kiểm tra điểm cao nhất hiện tại của người chơi
+                string query = @"IF EXISTS (SELECT 1 FROM Score WHERE UserName = @UserName)
+                         BEGIN
+                             UPDATE Score SET FinalScore = @FinalScore WHERE UserName = @UserName AND FinalScore < @FinalScore
+                         END
+                         ELSE
+                         BEGIN
+                             INSERT INTO Score (UserName, FinalScore) VALUES (@UserName, @FinalScore)
+                         END";
+
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@UserName", userName);
+                    command.Parameters.AddWithValue("@FinalScore", score);
+
+                    try
+                    {
+                        connection.Open();
+                        int affectedRows = command.ExecuteNonQuery(); // Thực hiện truy vấn
+
+                        if (affectedRows > 0)
+                        {
+                            MessageBox.Show("Điểm đã được lưu thành công!");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Điểm số không cao hơn điểm đã lưu. Không lưu điểm.");
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Lỗi khi lưu điểm: " + ex.Message);
+                    }
+                }
+            }
+        }
         // Xoay hình ảnh vòng quay
+
         private void RotateWheel(float angle)
         {
             if (wheelImage == null) return;
@@ -176,7 +267,7 @@ namespace FormLogin
                     currentScore += earnedScore;      // Cập nhật điểm số
                     break;
             }
-
+           
             // Cập nhật giao diện
             label8.Text = currentScore.ToString();
             label11.Text = remainingSpins.ToString();
@@ -203,6 +294,11 @@ namespace FormLogin
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close(); // Đóng form
+        }
+
+        private void lblName_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

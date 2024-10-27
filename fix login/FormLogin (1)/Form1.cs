@@ -3,18 +3,29 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
+using System.IO;
+using System.Data.SQLite;
+
+
 
 namespace FormLogin
 {
     public partial class frmlogin : Form
     {
+        private string connectionString = "Data Source=MINHTIENVICTUS1;Initial Catalog=VongQuayDB;Integrated Security=True";
+        //private string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\VongQuayDB.sql;Integrated Security=True;";
+        //private string connectionString = @"Data Source=D:\HK5\fix login\FormLogin\bin\Debug\VongQuayDB.sql;Version=3;";
+        //private string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\VongQuayDB.sql;Integrated Security=True;";
         public frmlogin()
         {
             InitializeComponent();
+            
         }
         public new void Show()
         {
@@ -37,22 +48,43 @@ namespace FormLogin
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if ((txtName.Text == "") || (txtPass.Text == ""))
+            string name = txtUser.Text;
+            string password = txtPassword.Text;
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            //using (SQLiteConnection connection = new SQLiteConnection(connectionString))
             {
-                MessageBox.Show("Vui lòng điền thông tin!", "Thông báo");
-            }
-            else
-            {
-                if((txtName.Text =="Nhom4")&&(txtPass.Text == "12345"))
+                try
                 {
-                    MessageBox.Show("Bạn đã đăng nhập thành công", "Thông báo");
-                    this.Hide();
-                    FormH home = new FormH();
-                    home.Show();
+                    connection.Open();
+                    string query = "SELECT COUNT(1) FROM [Users] WHERE Name = @Name AND Password = @Password";
+
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    //using (SQLiteCommand command = new SQLiteCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@Name", name);
+                        command.Parameters.AddWithValue("@Password", password);
+
+                        int count = Convert.ToInt32(command.ExecuteScalar());
+
+                        if (count == 1)
+                        {
+                            MessageBox.Show("Đăng nhập thành công!");
+                            // Chuyển sang trang khác (form khác) nếu cần
+                            FormH mainForm = new FormH();
+                            mainForm.UserName = txtUser.Text;
+                            mainForm.Show();
+                            this.Hide();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng.");
+                        }
+                    }
                 }
-                else
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng, vui lòng nhập lại!", "Thông báo");
+                    MessageBox.Show("Lỗi: " + ex.Message);
                 }
             }
         }

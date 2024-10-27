@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblChao = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnItt = new System.Windows.Forms.Button();
             this.btnrnk = new System.Windows.Forms.Button();
@@ -36,21 +36,18 @@
             this.btnCnt = new System.Windows.Forms.Button();
             this.btnSL = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // lblChao
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.label1.Location = new System.Drawing.Point(105, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 20);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Xin chào ";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lblChao.AutoSize = true;
+            this.lblChao.BackColor = System.Drawing.Color.Transparent;
+            this.lblChao.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblChao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.lblChao.Location = new System.Drawing.Point(105, 34);
+            this.lblChao.Name = "lblChao";
+            this.lblChao.Size = new System.Drawing.Size(0, 20);
+            this.lblChao.TabIndex = 18;
             // 
             // label2
             // 
@@ -146,24 +143,11 @@
             this.label3.Text = "Vui lòng chọn chế độ chơi";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.label4.Location = new System.Drawing.Point(188, 34);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 20);
-            this.label4.TabIndex = 18;
-            this.label4.Text = "Quan";
-            // 
             // FormH
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.btnItt);
             this.Controls.Add(this.btnrnk);
             this.Controls.Add(this.btnClg);
@@ -171,11 +155,12 @@
             this.Controls.Add(this.btnSL);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblChao);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormH";
             this.Text = "Trang chủ trò chơi vòng quay may mắn";
+            this.Load += new System.EventHandler(this.FormH_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -183,7 +168,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblChao;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnItt;
         private System.Windows.Forms.Button btnrnk;
@@ -191,6 +176,5 @@
         private System.Windows.Forms.Button btnCnt;
         private System.Windows.Forms.Button btnSL;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
     }
 }

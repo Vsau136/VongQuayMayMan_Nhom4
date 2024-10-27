@@ -43,6 +43,7 @@ namespace FormLogin
             string player2Name = textBox1.Text;
             FormCLG formCLG = new FormCLG(player1Name,player2Name);
             formCLG.ShowDialog();
+            this.Hide();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

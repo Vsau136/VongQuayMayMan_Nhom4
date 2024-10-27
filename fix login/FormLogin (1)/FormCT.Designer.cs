@@ -163,6 +163,7 @@
             this.btnClose.TabIndex = 56;
             this.btnClose.Text = "Trở Về";
             this.btnClose.UseVisualStyleBackColor = true;
+            
             // 
             // button2
             // 

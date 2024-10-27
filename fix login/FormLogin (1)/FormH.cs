@@ -16,6 +16,7 @@ namespace FormLogin
         {
             InitializeComponent();
         }
+
         void Intruc()
         {
             string intruction = @"Đối với chế độ solo:
@@ -49,7 +50,7 @@ namespace FormLogin
 
         private void btnSL_Click(object sender, EventArgs e)
         {
-            FormSL formSL = new FormSL();
+            FormSL formSL = new FormSL(UserName);
             formSL.ShowDialog();
         }
 
@@ -71,7 +72,7 @@ namespace FormLogin
 
         private void btnrnk_Click(object sender, EventArgs e)
         {
-            FormRk formRk = new FormRk();
+            FormRk formRk = new FormRk(UserName);
             formRk.ShowDialog();
         }
 
@@ -85,13 +86,19 @@ namespace FormLogin
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }
+        public string UserName { get; set; }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void FormH_Load(object sender, EventArgs e)
         {
+            lblChao.Text = "Xin chào " + UserName;
         }
     }
 }
